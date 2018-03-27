@@ -1,2 +1,2 @@
-# all_in_Huot_class_docs
-This is where the "Google Drive" of python docs are kept for in class activities and lessons.
+# This repo is for work that I've done at home.
+This is the repo for all homework.

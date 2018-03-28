@@ -7,17 +7,26 @@ class Dog:
     def add_weight(self, weight):
         self.weight = weight
 
+x = Dog('Baxter')
+#x.name = "Baxter"
 
 d = Dog('Worf')
-# d.name = "Worf"
+#d.name = "Worf"
 
-x = Dog('Baxter')
-# x.name = "Baxter"
+x.add_weight(101)
+#x.add_weight(101)
 
-x.add_weight(40)
-# x.add_weight(40)
+d.add_weight(40)
+#x.addweight(40)
 
 print(d.name)
+print(d.weight)
 
 print(x.name)
 print(x.weight)
+
+d.add_weight(9)
+#d.add_weight(9) will add 9 to the original function for weight set at 40 to set the current weight to 49
+
+x.add_weight(9)
+#x.add_weight(1) will add 1 to the original function for weight set at 101 to set the current weight to 110

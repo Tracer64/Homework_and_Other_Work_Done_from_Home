@@ -7,10 +7,10 @@ class Dog:
     def add_weight(self, weight):
         self.weight = weight
 
-x = Dog('Baxter')
+x = Dog('One of my dogs name is Baxter. His weight was 101 until a week ago when it increased to 110.')
 #x.name = "Baxter"
 
-d = Dog('Worf')
+d = Dog('One of my other dogs name is Worf, his weight was 40, until today when within a two week period, he gained 9 more pounds of weight and his total was then 49 lb.')
 #d.name = "Worf"
 
 x.add_weight(101)
